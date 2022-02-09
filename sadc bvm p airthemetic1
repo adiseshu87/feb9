@@ -1,0 +1,23 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    int a=5,*p;
+    p=&a;
+    printf("value of p is %u\n",p);
+    printf("value of p+1 is %u\n",p+1);
+    printf("value of p-1 is %u\n",p-1);
+    printf("value of p+2 is %u\n",p+2);
+    printf("value of p-2 is %u\n",p-2);
+    printf("value of p+4 is %u\n",p+4);
+    printf("value of p-4 is %u\n",p+2);
+    
+}
